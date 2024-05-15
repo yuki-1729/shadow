@@ -1,0 +1,25 @@
+# 基本設定
+token: "" # BotのToken(設定必須)
+shadow: 0 # Botのコマンドを使えるユーザー(設定必須)
+ally: [] # AllBanから除外するユーザー
+
+# 設定
+target: 0 # Nukeする先のサーバー
+limit: 500 # 最大何チャンネルを作成するか
+
+# サーバー設定
+server_name: "Nuked" # サーバー名を変更するかどうか
+disable_icon: true # アイコンを削除するかどうか
+disable_comm: true # コミュニティサーバーを無効にするかどうか
+allow_admin: true # everyoneロールに管理者を与えるかどうか
+
+# 切り替え
+i_am_allrange_atomic: true # チャンネル削除及びスパムを行うかどうか
+i_am_recovery_atomic: false # 除外された以外の全てのユーザーをBANするかどうか
+i_am_atomic_rader: false # 実行したらすぐNukeを開始するかどうか
+i_am_atomic_rain: true # ロールをすべて削除するかどうか
+im_atomic: true # サーバーに関する情報を変更するかどうか
+
+# メッセージ
+names: [] # Nuke時に作成するチャンネル名(設定必須)
+contents: [] # Nuke時にスパムするメッセージ内容(設定必須)
